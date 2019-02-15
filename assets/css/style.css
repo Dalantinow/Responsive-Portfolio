@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background-image: url("../images/prism.png");
+    background-repeat: repeat;
+    height: 100%;
+}
+
+header {
+    background-color: white;
+    border-bottom: solid;
+    border-bottom-color: #cccccc;
+    height: 92px;
+    margin-bottom: 30px;
+}
+
+.yourname {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    font-size: 40px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    padding: 25px;
+    z-index: 2;
+    font-weight: bolder;
+}
+.topright {
+    color: #777777;
+    background-color: white;
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 30px;
+}
+a {
+    color:#777777;
+
+}
+body {
+    margin: 0px;
+    height: 100%;
+}
+section {
+    width: 960px;
+    background-color: #ffffff;
+    border: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    padding: 30px;
+    min-height: 1200px;
+    max-height: 2000px;
+    margin: 0 auto;
+}
+h1 {
+    font-weight: bolder;
+    margin: 20px;
+    height: 75px;
+    border-bottom: solid;
+    border-bottom-color: #cccccc;
+    font-size: 50px;  
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    max-width: 900px;
+    background-color: #ffffff
+}
+p {
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    padding: 10px;
+    line-height: 2;
+}
+.index {
+    float: left;
+    padding: 40px;
+    image-orientation: 180deg;
+}
+
+footer {
+    height: 50px;
+    margin-top: 30px;
+    border-top: solid;
+    border-top-width: 10px;
+    border-color: #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    clear: both;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+}
+form {
+    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #777777
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    border: solid;
+    resize: none;
+    border-color: #dddddd;
+  }
+  .page-wrap {
+      min-height: 100%;
+      margin-bottom: -50px;
+  }
+  .page-wrap:after {
+      content: "";
+      display: block;
+      height: 50px;
+  }
+
+  .picture h2 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  }
+  .picture {
+    position: relative;
+    float: left;
+    
+    margin: 15px;
+    overflow: auto;
+  }
+
+  @media screen and (max-width: 980px) {
+      section {
+          width: 90%;
+          float: left;
+          margin: 30px;
+      }
+      
+  }
+
+  @media screen and (max-width: 768px) {
+    section {
+        width: 90%;
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    section {
+        width: 90%;
+        margin: 10px;
+    }
+    .yourname {
+        width: 100%;
+        text-align: center;
+    }
+    .topright {
+        width: 100%;
+        text-align: center;
+    }
+    picture {
+        margin: 30px;
+        float: center;
+        width: 90%;
+    }
+    header {
+        position: static;
+    }
+    h1 {
+        text-align: center;
+    }
+}
